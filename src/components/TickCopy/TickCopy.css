@@ -28,5 +28,7 @@
 .tick-text {
     color: #00C1EC;
     text-shadow: 0px 0px 4px #FF34C6;
-    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch
 }
