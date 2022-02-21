@@ -30,5 +30,6 @@
     text-shadow: 0px 0px 4px #FF34C6;
     display: flex;
     justify-content: center;
-    align-items: stretch
+    align-items: center;
+    align-content: space-around;
 }
