@@ -1,0 +1,30 @@
+.container-tick{
+    margin-top: 30px;
+    position: absolute;
+    right:25px;
+}
+
+.tick-back { 
+    width: 70px;
+    height: 400px;
+    background: rgba(255, 52, 198, 0.25);
+    border: 1px solid #FF34C6;
+    border-radius: 5px;
+}
+.tick-front {
+
+    width: 70px;
+    height: 400px;
+    background: rgba(255, 52, 198, 0.25);
+    border: 2px solid #00C1EC;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: -10px;
+    font-size:35px;
+    text-align: center;
+}
+
+.tick-text {
+    color: #00C1EC;
+    text-shadow: 0px 0px 4px #FF34C6;
+}

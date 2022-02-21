@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Description from './components/Description';
+import Presentacion from './components/Presentacion';
+import Terminal from './components/Terminal';
+import TickCopy from './components/TickCopy/TickCopy';
+import Ticker from './components/Ticker';
+import Title from './components/Title'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Title/> 
+     <Terminal/>
+     <Presentacion/>
+     <Ticker message=" Copia de Tick Tock "/>
+     <TickCopy/>
+     <Description/>
+     <Ticker message=" Copia de Tick Tock "/>
+     <Description/>
+     <Ticker message=" Copia de Tick Tock "/>
+     <Description/>
     </div>
   );
 }

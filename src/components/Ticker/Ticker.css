@@ -1,0 +1,10 @@
+.tick-container {
+    margin-top: 100px;
+}
+
+.text-ticker {
+    height:40px;
+    background: rgba(0, 0, 0, 0.41);
+    color: #15FF1F;
+    font-size:24px;
+}
