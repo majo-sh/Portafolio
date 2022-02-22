@@ -1,0 +1,39 @@
+.container-google {
+    display: grid;
+    place-content: center;
+    margin-top: 30px;
+    
+}
+
+.circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: 5px solid #00C1EC;
+    
+    
+}
+
+.google-text{
+    display: block;
+    margin-left: -30px;
+    margin-top: 10px;
+    font-size:64px;
+    text-shadow: 0px 0px 5px #e2e2e2;
+}
+
+.blanco {
+    color: #fff;
+}
+.rojo {
+    color: #FF34C6;
+}
+.amarillo {
+    color: #FFF500;
+}
+.azul {
+    color: #00C1EC;
+}
+.verde {
+    color: #00FF85;
+}
