@@ -29,10 +29,11 @@
 .butto {
     display: inline-block;
     width:150px;
-    height:25px;
+    height:28px;
     background-color:#eeeeee;
     border-radius: 5px;
     border: 1px solid #00C1EC;
+    text-align: center;
 }
 
 a { 
