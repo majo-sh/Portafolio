@@ -11,11 +11,11 @@ export default function DescriptionW() {
                     <p>Next.js</p>
                     <h3 className="title-g">Repositorio</h3>
                     <span className="butto">
-                        <a href="https://github.com/majo-sh/googlecopy" target="_blank" rel="noreferrer">Github</a>
+                        <a href="https://github.com/majo-sh/web3" target="_blank" rel="noreferrer">Github</a>
                     </span>
                     <h3 className="title-g">Link</h3>
                     <span className="butto">
-                        <a href="https://googlecopy.vercel.app/#" target="_blank" rel="noreferrer">Copy Google</a>
+                        <a href="https://web3-tau.vercel.app/" target="_blank" rel="noreferrer">Copy Google</a>
                     </span>
                 </div>
             </div>

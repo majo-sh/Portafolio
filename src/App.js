@@ -2,6 +2,7 @@ import './App.css';
 import Description from './components/Description';
 import DescriptionG from './components/Description/DescriptionG';
 import DescriptionW from './components/Description/DescriptionW';
+import Footer from './components/Footer';
 import Google from './components/Google';
 import Presentacion from './components/Presentacion';
 import Terminal from './components/Terminal';
@@ -25,6 +26,7 @@ function App() {
       <Ticker message="Web3 y JavaScript " />
       <Web3/>
       <DescriptionW />
+      <Footer/>
     </div>
   );
 }
