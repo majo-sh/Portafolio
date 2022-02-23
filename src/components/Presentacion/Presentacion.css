@@ -14,3 +14,36 @@
 .textPresentacion {
     margin-left: 10px;
 }
+
+.photo {
+    display: none;
+}
+
+@media (min-width: 767px) {
+    .pesentacion {
+        margin-top: -100px;
+        margin-left: 60px;
+        max-width: 34rem;
+        height: 15rem;
+        font-size: 20px;
+    }
+    
+    .textPresentacion {
+        margin-left: 20px;
+    }
+
+    .photo-conatiner {
+        display:flex;
+        justify-content:flex-end;
+        margin-right: 30px;
+    }
+    .photo {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        border: 3px solid #00C1EC;
+        box-shadow: 0 0 10px rgb(155, 25, 230);
+        
+    }
+}

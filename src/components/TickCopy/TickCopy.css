@@ -1,5 +1,5 @@
 .container-tick{
-    margin-top: 30px;
+    margin-top: 40px;
     position: absolute;
     right:16px;
 }
@@ -20,8 +20,9 @@
     border-radius: 5px;
     margin-top: 5px;
     margin-left: -10px;
-    font-size:35px;
+    font-size:34px;
     text-align: center;
+    font-weight: normal;
     
 }
 
@@ -38,4 +39,28 @@
 .space {
     width: 10px;
     height:10px
+}
+
+
+@media (min-width: 767px) {
+        .container-tick{
+        margin-top: 75px;
+        position: absolute;
+        right:30px;
+    }
+    
+    .tick-back { 
+        width: 80px;
+        height: 450px;
+
+    }
+    .tick-front {
+    
+        width: 80px;
+        height: 450px;
+        font-size:38px;
+    }
+
+
+    
 }

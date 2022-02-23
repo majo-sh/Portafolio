@@ -4,6 +4,7 @@ import DescriptionG from './components/Description/DescriptionG';
 import DescriptionW from './components/Description/DescriptionW';
 import Footer from './components/Footer';
 import Google from './components/Google';
+import Photo from './components/Photo';
 import Presentacion from './components/Presentacion';
 import Terminal from './components/Terminal';
 import TickCopy from './components/TickCopy/TickCopy';
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Title />
+      <Photo/>
       <Terminal />
       <Presentacion />
       <Ticker message=" Copia de Tick Tock - React"/>

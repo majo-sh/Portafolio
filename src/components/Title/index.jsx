@@ -11,6 +11,7 @@ export default function Title () {
                 <span className="shadow-title blanco">O</span>
             </div>
             </div>
+            <h2 className="titulo">Desarrolladora web</h2>
         </header>
     )
 }

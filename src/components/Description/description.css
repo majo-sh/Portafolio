@@ -35,3 +35,27 @@ a:link {
     color: #FF34C6;
 }
 
+@media (min-width: 767px) {
+
+    .center {
+        display: grid;
+        place-content: center;
+    }
+
+    .container-description {
+ 
+        width: 400px;
+        height: 520px;
+       
+    }
+    
+    .text-description {
+       font-size: 20px;
+        
+    }
+    
+    .title-tick {
+        text-shadow: 2px 2px 4px #FF34C6, -2px -2px 3px #00C1EC; 
+        
+    }
+}

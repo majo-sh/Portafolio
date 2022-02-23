@@ -3,7 +3,8 @@ import './description.css'
 
 export default function Description () {
     return (
-    <article className="container-description">
+    <article className="center">
+    <div className="container-description">
         <div className="text-description">
             <h3 className="title-tick">TickCopy</h3>
             <p>Proyecto realizado para aplicar react y consumir una pequeña api hecha en Supabase</p>
@@ -18,6 +19,7 @@ export default function Description () {
             <a href="https://clon-ticktock.vercel.app/" target="_blank" rel="noreferrer">CopyTock</a>
             </span>
         </div>
+    </div>
     </article>
     )
 }

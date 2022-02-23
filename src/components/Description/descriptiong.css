@@ -7,7 +7,7 @@
 .container-descriptiongo {
     margin-top:30px;
     width: 250px;
-    height: 400px;
+    height: 420px;
     background: linear-gradient(0deg, rgba(46, 46, 46, 0.7) 97%, rgb(70, 181, 255) 100%);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0);
@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width:225px;
+    width:99%;
     height:28px;
     background-color:#eeeeee;
     border-radius: 5px;
@@ -53,3 +53,14 @@ a:link {
     color: #FF34C6;
 }
 
+@media (min-width: 767px) {
+    .container-descriptiongo {
+    width: 400px;
+    height: 500px;
+    }
+
+    .text-descriptiong {
+        font-size:20px;
+        
+    }
+}
