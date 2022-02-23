@@ -15,20 +15,28 @@ import Web3 from './components/Web3.';
 function App() {
   return (
     <div className="App">
-      <Title />
-      <Photo/>
-      <Terminal />
-      <Presentacion />
-      <Ticker message=" Copia de Tick Tock - React"/>
-     <TickCopy/>
-     <Description/>
-     <Ticker message="Copia de Google - HTML - React"/>
-     <Google/>
-      <DescriptionG />
-      <Ticker message="Web3 y JavaScript " />
-      <Web3/>
-      <DescriptionW />
-      <Footer/>
+      <div className="containert">
+        <Title />
+        <Photo />
+        <Terminal />
+        <Presentacion />
+        </div>
+        <Ticker message=" Copia de Tick Tock - React" />
+        <TickCopy /> 
+        <Description />
+        <div className="containert">
+        </div>
+        <Ticker message="Copia de Google - HTML - React" />
+        <div className="containert">
+        <Google />
+        <DescriptionG />
+        </div>
+        <Ticker message="Web3 y JavaScript " />
+        <div className="containert">
+        <Web3 />
+        <DescriptionW />
+      </div>
+        <Footer />
     </div>
   );
 }

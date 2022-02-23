@@ -35,7 +35,7 @@
     .photo-conatiner {
         display:flex;
         justify-content:flex-end;
-        margin-right: 30px;
+        margin-right: -30px;
     }
     .photo {
         display: inline-block;

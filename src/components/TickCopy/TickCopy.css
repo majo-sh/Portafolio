@@ -60,7 +60,21 @@
         height: 450px;
         font-size:38px;
     }
-
-
     
+}
+
+@media (min-width: 1000px) {
+    .container-tick{
+    right:150px;
+    }
+}
+@media (min-width: 1300px) {
+    .container-tick{
+    right:250px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-tick{
+    right:400px;
+    }
 }
