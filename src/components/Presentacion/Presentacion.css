@@ -24,7 +24,7 @@
         margin-top: -100px;
         margin-left: 60px;
         max-width: 34rem;
-        height: 15rem;
+        height: 10rem;
         font-size: 20px;
     }
     
@@ -35,7 +35,7 @@
     .photo-conatiner {
         display:flex;
         justify-content:flex-end;
-        margin-right: -30px;
+        margin-right: -60px;
     }
     .photo {
         display: inline-block;
@@ -45,5 +45,13 @@
         border: 3px solid #00C1EC;
         box-shadow: 0 0 10px rgb(155, 25, 230);
         
+    }
+}
+
+@media (min-width:1024px) {
+    .pesentacion {
+        max-width: 45rem;
+        font-size: 27px;
+        height:15rem;
     }
 }

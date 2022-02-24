@@ -90,3 +90,11 @@
 
     }
 }
+
+@media (min-width: 1024px) {
+    .titulo {
+        font-size: 40px;
+        margin-top:70px;
+    }
+
+}

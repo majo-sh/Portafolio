@@ -45,7 +45,8 @@
 @media (min-width: 767px) {
         .container-tick{
         margin-top: 75px;
-        position: absolute;
+        position: grid;
+        place-content: center;
         right:30px;
     }
     
@@ -63,18 +64,18 @@
     
 }
 
-@media (min-width: 1000px) {
+ @media (min-width: 1000px) {
     .container-tick{
     right:150px;
     }
 }
-@media (min-width: 1300px) {
+ @media (min-width: 1400px) {
     .container-tick{
-    right:250px;
+    right:350px;
     }
 }
-@media (min-width: 1400px) {
+ @media (min-width: 1800px) {
     .container-tick{
-    right:400px;
+    right:550px;
     }
 }

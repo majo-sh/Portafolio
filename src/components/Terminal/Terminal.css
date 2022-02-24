@@ -60,3 +60,16 @@
         margin-top: 10px;
     }
 }
+@media (min-width: 1024px) {
+    .terminal {
+        margin-top: -125px;
+        max-width: 29rem;
+        min-width: 20rem;
+        height: 13rem;
+    }
+    .containerText{
+        font-size:23px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}

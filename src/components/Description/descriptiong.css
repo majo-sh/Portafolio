@@ -64,3 +64,17 @@ a:link {
         
     }
 }
+@media (min-width: 1024px) {
+    .container-descriptiongo {
+    width: 400px;
+    height: 580px;
+    }
+
+    .text-descriptiong {
+        font-size:23px;
+        
+    }
+    .butto {
+        height:30px;
+    }
+}

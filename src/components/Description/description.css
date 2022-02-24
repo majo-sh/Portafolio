@@ -59,3 +59,24 @@ a:link {
         
     }
 }
+
+@media (min-width: 1024px) {
+
+
+    .container-description {
+ 
+        width: 450px;
+        height: 580px;
+       
+    }
+    
+    .text-description {
+       font-size: 23px;
+        
+    }
+    
+    .title-tick {
+        text-shadow: 2px 2px 4px #FF34C6, -2px -2px 3px #00C1EC; 
+        
+    }
+}
